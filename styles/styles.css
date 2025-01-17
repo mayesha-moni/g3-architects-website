@@ -14,6 +14,9 @@
 .text-dark3{
     color: #727272;
 }
+.text-orange-primary{
+    color: #FF900E;
+}
 .bg-color-light{
     background-color: #ff8f0e28;
 }
@@ -81,10 +84,50 @@
 .banner-img{
     width: 100%;
 }
+.team-sect{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
-/* @media screen and (max-width: 576px) {
+.team-container{
+    width: 80%;
+    display: flex;
+    gap: 60px;
+}
+.team-img-container{
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.team-img{
+    width: 200px;
+}
+.team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 55%;
+}
+.team-title{
+    font: 2rem;
+}
+.team-content button{
+    width: 150px;
+}
+
+@media screen and (max-width: 576px) {
     .nav, .nav-links{
         flex-direction: column;
         text-align: center;
     }
-} */
+    .nav{
+        gap:20px
+    }
+    .brand{
+        font-size: 1.5rem;
+    }
+}
+
