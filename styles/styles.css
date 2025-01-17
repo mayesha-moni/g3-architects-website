@@ -129,5 +129,54 @@
     .brand{
         font-size: 1.5rem;
     }
+    .banner-title{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .banner-desc{
+        font-size: 12px;
+    }
+    .team-container{
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 50px;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(2, 1r);
+        padding-right: 50px;
+    }
+    .team-img{
+        width: 140px;
+    }
+    .team-content{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 25px;
+
+    }
+    .team-content > button{
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav{
+        margin: 0 60px;
+    }
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        padding-left: 45px;
+    }
+    .team-content{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .team-content > button{
+        margin: 0 auto;
+    }
 }
 
